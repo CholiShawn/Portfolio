@@ -1,25 +1,46 @@
 a{
     color: #dbbfcc;
     padding: 1em;
+    font-family:'PT Sans', sans-serif;
 }
 p{
     color: #b57edc;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Cantarell', sans-serif; 
+
 }
 h2{
     color: #94c6e3;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 100;
+    background-color: white
+    
 }
 h1{
     color: #da6895;
-    font-weight: 300;
+    font-weight: 100;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 h4{
     color: #94c6e3;
+    font-weight: 100;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 ol{
     color: rgb(77, 119, 233);
     padding: 1em;
+    
 }
 figure{
     text-align: center;
+    color:  #b57edc;
+    font-family: 'Cantarell', sans-serif; 
+    font-size: x-small;
 }
+body{
+   background-color: #cbe9f2;   
+}
+img{
+    border: 4px solid #dbbfcc;
+}
+
