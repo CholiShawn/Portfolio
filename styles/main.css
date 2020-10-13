@@ -17,6 +17,9 @@ h4{
     color: #94c6e3;
 }
 ol{
-    color: #b57edc;
+    color: rgb(77, 119, 233);
     padding: 1em;
+}
+figure{
+    text-align: center;
 }
