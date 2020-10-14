@@ -5,7 +5,7 @@ a{
     
 }
 p{
-    color: #b57edc;
+    color:#b57edc;
     font-family: 'Cantarell', sans-serif; 
     border: 5px dotted pink;
 
@@ -19,9 +19,12 @@ h2{
     
 }
 h1{
-    color: #da6895;
+    color:white;
+    text-align: center;
     font-weight: 100;
     font-family: "Open Sans Condensed", sans-serif;
+    background-image: url(../images/starry.jpg);
+
 }
 h4{
     color: #94c6e3;
@@ -43,6 +46,13 @@ body{
     background-color: #cbe9f2;    
 }
 img{
-    border: 4px solid #dbbfcc;
+    border: 4px solid  #da6895;
 }
-
+table, th, td{
+    color: #b57edc;
+    font-family: 'Cantarell', sans-serif;
+    border: 2px solid #da6895;
+    border-collapse: collapse;
+    background-color:azure;
+    
+}
