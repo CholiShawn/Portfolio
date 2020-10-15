@@ -2,6 +2,9 @@ a{
     color: #dbbfcc;
     padding: 1em;
     font-family:'PT Sans', sans-serif;
+    display: block;
+    padding: 8px;
+    background-color:#cbe9f2;
     
 }
 p{
@@ -56,3 +59,32 @@ table, th, td{
     background-color:azure;
     
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:#dbbfcc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* all code for nav bar from w3schools.com */
+  li a:hover {
+    background-color:white;
+  }
+  .active{
+    background-color: white;
+}
+  
+  
