@@ -75,7 +75,7 @@ ul {
   
   li a {
     display: block;
-    color: #dbbfcc;
+    color: #f1a3ad;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -83,7 +83,7 @@ ul {
   
   /* all code for nav bar from w3schools.com*/
   li a:hover {
-    background-color:white;
+    background-color:azure;
     
   }
  
