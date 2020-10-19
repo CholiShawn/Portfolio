@@ -61,6 +61,7 @@ table, th, td{
     background-color:azure;
     
 }
+/*nav bar stuff*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -80,10 +81,26 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
-  /* all code for nav bar from w3schools.com*/
+
   li a:hover {
     background-color:azure;
-    
+  /* all code for nav bar from w3schools.com*/ 
+  }
+
+  #greeting {
+    background-color: #dbbfcc;
+    color: white;
+    border-color: lavender;
+  }
+
+  #farewell {
+      background-color: #dbbfcc;
+      color: white;
+      border-color: lavender;
+  }
+  #question {
+      background-color: #dbbfcc;
+      color: white;
+      border-color: lavender;
   }
  
