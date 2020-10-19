@@ -91,16 +91,20 @@ ul {
     background-color: #dbbfcc;
     color: white;
     border-color: lavender;
+    float: right;
+    
   }
 
   #farewell {
       background-color: #dbbfcc;
       color: white;
       border-color: lavender;
+      float: right;
   }
   #question {
       background-color: #dbbfcc;
       color: white;
       border-color: lavender;
+      float: right;
   }
  

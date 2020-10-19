@@ -59,6 +59,7 @@ table, th, td{
     background-color:azure;
     
 }
+/*nav bar code starts here*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -79,7 +80,14 @@ ul {
     text-decoration: none;
   }
   
-  /* all code for nav bar from w3schools.com*/
   li a:hover {
     background-color:azure;
+    /* all code for nav bar from w3schools.com*/
   }
+
+  #question2 {
+    background-color: #dbbfcc;
+    color: white;
+    border-color: lavender;
+    float: right;
+}
