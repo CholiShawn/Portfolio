@@ -86,13 +86,12 @@ ul {
     background-color:azure;
   /* all code for nav bar from w3schools.com*/ 
   }
-
+  /* all css for buttons */
   #greeting {
     background-color: #dbbfcc;
     color: white;
     border-color: lavender;
-    float: right;
-    
+    float: right; 
   }
 
   #farewell {
@@ -106,5 +105,17 @@ ul {
       color: white;
       border-color: lavender;
       float: right;
+  }
+  #question3 {
+    background-color: #dbbfcc;
+    color: white;
+    border-color: lavender;
+    float: right;
+  }
+  #question4 {
+    background-color: #dbbfcc;
+    color: white;
+    border-color: lavender;
+    float: right;
   }
  
