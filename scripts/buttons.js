@@ -16,10 +16,10 @@ function question2() {
     alert("Ah yes, the colour " + colour + ". A fine one indeed"); 
 }
 function question3() {
-    let animal = prompt("Just one more question, what's your favourite animal?")
-    alert(animal + " are great :)")
+    let animal = prompt("Just one more question, what's your favourite animal?");
+    alert(animal + " are great :)");
 }
 function question4() {
-    let subject = prompt("Ok I lied, this is the last question: What's your favoruite subject in school?")
-    alert(subject + "?" + (" Sounds like fun!"))
+    let subject = prompt("Ok I lied, this is the last question: What's your favoruite subject in school?");
+    alert(subject + "?" + " Sounds like fun!");
 }
