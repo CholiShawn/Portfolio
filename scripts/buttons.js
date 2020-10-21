@@ -25,3 +25,10 @@ function question4() {
     let subject = prompt("Ok I lied, this is the last question: What's your favoruite subject in school?");
     alert(subject + "?" + " Sounds like fun!");
 }
+
+function varDemo() {
+    let firstnumber = 2;
+    let secondnumber = 3;
+    let answer = firstnumber + secondnumber;
+    console.log(answer);
+}
