@@ -1,3 +1,4 @@
+//functions for buttons//
 function greeting() {
     alert("Hello and Welcome :D");
 }
@@ -25,7 +26,7 @@ function question4() {
     let subject = prompt("Ok I lied, this is the last question: What's your favoruite subject in school?");
     alert(subject + "?" + " Sounds like fun!");
 }
-
+//math test thing//
 function varDemo() {
     let firstnumber = 2;
     let secondnumber = 3;
