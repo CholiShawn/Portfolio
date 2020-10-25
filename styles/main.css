@@ -91,38 +91,62 @@ ul {
     background-color: #dbbfcc;
     color: white;
     border-color: lavender;
-    float: right; 
+    float: center;
   }
 
   #farewell {
       background-color: #dbbfcc;
       color: white;
       border-color: lavender;
-      float: right;
+      float: center;
   }
   #question {
       background-color: #dbbfcc;
       color: white;
       border-color: lavender;
-      float: right;
+      float: center;
+  }
+  #question2 {
+    background-color: #dbbfcc;
+    color: white;
+    border-color: lavender;
+    float: center;
   }
   #question3 {
     background-color: #dbbfcc;
     color: white;
     border-color: lavender;
-    float: right;
+    float: center;
   }
   #question4 {
     background-color: #dbbfcc;
     color: white;
     border-color:lavender;
-    float: right;
+    float: center;
   }
   #varDemo{
     background-color: #dbbfcc;
     color: white;
     border-color:lavender;
-    float: right;
+    float: center;
+  }
+  #varDemo2{
+    background-color: #dbbfcc;
+    color: white;
+    border-color:lavender;
+    float: center;
+  }
+  #varDemo3{
+    background-color: #dbbfcc;
+    color: white;
+    border-color:lavender;
+    float: center;
+  }
+  #midway{
+    background-color: #dbbfcc;
+    color: white;
+    border-color:lavender;
+    float: center;
   }
 
  

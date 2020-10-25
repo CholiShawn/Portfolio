@@ -28,8 +28,29 @@ function question4() {
 }
 //math test thing
 function varDemo() {
+    alert("check the console and do some math..addition!")
     let firstnumber = 2;
     let secondnumber = 3;
     let answer = firstnumber + secondnumber;
-    console.log(answer);
+    console.log(answer + " ...fun stuff here!");
+}
+
+function varDemo2() {
+    alert("check the console and do some math..but division this time!")
+    let firstnumber = 45
+    let secondnumber = 5
+    let answer = firstnumber / secondnumber
+    console.log(answer + " ...numbers are fun :)")
+}
+
+function varDemo3() {
+    alert("check the console and do some math..we're ending with multiplication!")
+    let firstnumber = 6
+    let secondnumber = 7
+    let answer = firstnumber * secondnumber
+    console.log(answer + " ...woo math!")
+}
+    
+function midway() {
+    alert("yay! You're halfway through the list of buttons!")
 }
