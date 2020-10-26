@@ -1,4 +1,4 @@
-//functions for buttons
+//greeting and goodbye buttons
 function greeting() {
     alert("Hello and Welcome :D");
 }
@@ -7,6 +7,7 @@ function farewell() {
     alert("Bye bye, see you soon (hopefully)!");
 }
 
+//mini questionnaire buttons
 function question(){
     let name = prompt("Hii! What's your name?");
     alert(name + "? What a lovely name! Nice to meet you, " + name + "!");
@@ -50,7 +51,8 @@ function varDemo3() {
     let answer = firstnumber * secondnumber
     console.log(answer + " ...woo math!")
 }
-    
+
+//random button
 function midway() {
     alert("yay! You're halfway through the list of buttons!")
 }

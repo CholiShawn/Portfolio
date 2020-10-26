@@ -1,3 +1,4 @@
+/* css for links */
 a{
     color: #dbbfcc;
     padding: 1em;
@@ -5,22 +6,20 @@ a{
     display: block;
     padding: 8px;
     background-color:#cbe9f2;
-    
-    
+
+/* css for text related stuff */     
 }
 p{
     color:#b57edc;
     font-family: 'Cantarell', sans-serif; 
     
-
 }
 h2{
     color: #94c6e3;
     text-align: center;
     font-family: "Open Sans Condensed", sans-serif;
     font-weight: 100;
-    background-color: white
-    
+    background-color: white   
 }
 h1{
     color:white;
@@ -28,19 +27,28 @@ h1{
     font-weight: 100;
     font-family: "Open Sans Condensed", sans-serif;
     background-image: url(../images/starry.jpg);
-    /* background image credit: thobar*/
-
+    /* background image credit: thobar */
 }
 h4{
     color: #94c6e3;
     font-weight: 100;
     font-family: "Open Sans Condensed", sans-serif;
 }
+
+/* css for organizing things */
+table, th, td{
+  color: #b57edc;
+  font-family: 'Cantarell', sans-serif;
+  border: 2px solid #da6895;
+  border-collapse: collapse;
+  background-color:azure;
+}
 ol{
     color: rgb(77, 119, 233);
-    padding: 1em;
-   
+    padding: 1em;  
 }
+
+/* css for image related things */
 figure{
     text-align: center;
     color:  #b57edc;
@@ -53,15 +61,8 @@ body{
 img{
     border: 4px solid  #da6895;
 }
-table, th, td{
-    color: #b57edc;
-    font-family: 'Cantarell', sans-serif;
-    border: 2px solid #da6895;
-    border-collapse: collapse;
-    background-color:azure;
-    
-}
-/*nav bar stuff*/
+
+/* nav bar stuff */
 ul {
     list-style-type: none;
     margin: 0;
@@ -69,11 +70,11 @@ ul {
     overflow: hidden;
     background-color: none;
   }
-  
+
   li {
     float: left;
   }
-  
+
   li a {
     display: block;
     color: #f1a3ad;
@@ -86,6 +87,7 @@ ul {
     background-color:azure;
   /* all code for nav bar from w3schools.com*/ 
   }
+
   /* all css for buttons */
   #greeting {
     background-color: #dbbfcc;
@@ -93,7 +95,6 @@ ul {
     border-color: lavender;
     float: center;
   }
-
   #farewell {
       background-color: #dbbfcc;
       color: white;
