@@ -27,6 +27,7 @@ function question4() {
     let subject = prompt("Ok I lied, this is the last question: What's your favoruite subject in school?");
     alert(subject + "?" + " Sounds like fun!");
 }
+
 //math test thing
 function varDemo() {
     alert("check the console and do some math..addition!")
