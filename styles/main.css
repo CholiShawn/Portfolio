@@ -1,6 +1,6 @@
 /* css for links */
 a{
-    color: #dbbfcc;
+    color: #f1a3ad;
     padding: 1em;
     font-family:'PT Sans', sans-serif;
     display: block;
@@ -41,7 +41,7 @@ table, th, td{
   font-family: 'Cantarell', sans-serif;
   border: 2px solid #da6895;
   border-collapse: collapse;
-  background-color:azure;
+  background-color: white;
 }
 ol{
     color: rgb(77, 119, 233);
@@ -93,61 +93,163 @@ ul {
     background-color: #dbbfcc;
     color: white;
     border-color: lavender;
-    float: center;
+    border-radius: 50%;
+    padding: 10px 10px;
+    transition-duration: 0.4s;
   }
+  #greeting:hover{
+    background-color: white;
+    color: #dbbfcc;
+  }
+  #greeting:active {
+    background-color: white;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
   #farewell {
       background-color: #dbbfcc;
       color: white;
       border-color: lavender;
-      float: center;
+      border-radius: 50%;
+      padding: 10px 10px
   }
+  #farewell:hover{
+    background-color: white;
+    color: #dbbfcc;
+  }
+  #farewell:active {
+    background-color: white;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
   #question {
       background-color: #dbbfcc;
       color: white;
       border-color: lavender;
-      float: center;
+      border-radius: 12px;
   }
+  #question:hover{
+    background-color: white;
+    color: #dbbfcc;
+  }
+  #question:active {
+    background-color: white;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
   #question2 {
     background-color: #dbbfcc;
     color: white;
     border-color: lavender;
-    float: center;
+    border-radius: 12px;
   }
+  #question2:hover{
+    background-color: white;
+    color: #dbbfcc;
+  }
+  #question2:active {
+    background-color: white;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
   #question3 {
     background-color: #dbbfcc;
     color: white;
     border-color: lavender;
-    float: center;
+    border-radius: 12px;
   }
+  #question3:hover{
+    background-color: white;
+    color: #dbbfcc;
+  }
+  #question3:active {
+    background-color: white;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
   #question4 {
     background-color: #dbbfcc;
     color: white;
     border-color:lavender;
-    float: center;
+    border-radius: 12px;
   }
+  #question4:hover{
+    background-color: white;
+    color: #dbbfcc;
+  }
+  #question4:active {
+    background-color: white;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
   #varDemo{
     background-color: #dbbfcc;
     color: white;
     border-color:lavender;
-    float: center;
+    border-radius: 12px;
   }
+  #varDemo:hover{
+    background-color: white;
+    color: #dbbfcc;
+  }
+  #varDemo:active {
+    background-color: white;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
   #varDemo2{
     background-color: #dbbfcc;
     color: white;
     border-color:lavender;
-    float: center;
+    border-radius: 12px;
   }
+  #varDemo2:hover{
+    background-color: white;
+    color: #dbbfcc;
+  }
+  #varDemo2:active {
+    background-color: white;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
   #varDemo3{
     background-color: #dbbfcc;
     color: white;
     border-color:lavender;
-    float: center;
+    border-radius: 12px;
   }
+  #varDemo3:hover{
+    background-color: white;
+    color: #dbbfcc;
+  }
+  #varDemo3:active {
+    background-color: white;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
   #midway{
     background-color: #dbbfcc;
     color: white;
     border-color:lavender;
-    float: center;
+    border-radius: 12px;
+  }
+  #midway:hover{
+    background-color: white;
+    color: #dbbfcc;
+  }
+  #midway:active {
+    background-color: white;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
   }
 
  
