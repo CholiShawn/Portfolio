@@ -43,6 +43,7 @@ table, th, td{
   border-collapse: collapse;
   background-color: white;
 }
+
 ol{
     color: rgb(77, 119, 233);
     padding: 1em;  
@@ -88,7 +89,7 @@ ul {
   /* all code for nav bar from w3schools.com*/ 
   }
 
-  /* all css for buttons */
+  /* all css for buttons (there's a lot)*/
   #greeting {
     background-color: #dbbfcc;
     color: white;
@@ -251,5 +252,5 @@ ul {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
-
+/* all css for :hover, :active, and border-radius from w3schools; link: https://www.w3schools.com/css/css3_buttons.asp */
  
