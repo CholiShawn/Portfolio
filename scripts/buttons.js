@@ -57,3 +57,9 @@ function varDemo3() {
 function midway() {
     alert("yay! You're halfway through the list of buttons!")
 }
+
+//review
+function review(){
+    let rating = prompt("Did you like this page? Yes or no?")
+    alert("ah, I see")  
+}

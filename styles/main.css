@@ -253,5 +253,23 @@ ul {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+
+  #review {
+    background-color: #dbbfcc;
+    color: white;
+    border-color:lavender;
+    border-radius: 50%;
+    padding: 10px 10px
+  }
+  #review:hover{
+    background-color: white;
+    color: #dbbfcc;
+  }
+  #review:active {
+    background-color: white;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
 /* all css for :hover, :active, and border-radius from w3schools; link: https://www.w3schools.com/css/css3_buttons.asp */
  
