@@ -1,3 +1,4 @@
+/* this css file is the main one; it connects to all pages except the 'about me' section */
 /* css for links */
 a{
     color: #f1a3ad;
@@ -86,10 +87,10 @@ ul {
 
   li a:hover {
     background-color:azure;
-  /* all code for nav bar from w3schools.com*/ 
+  /* all code for nav bar from w3schools.com */ 
   }
 
-  /* all css for buttons (there's a lot)*/
+  /* all css for buttons (there's a lot) */
   #greeting {
     background-color: #dbbfcc;
     color: white;
