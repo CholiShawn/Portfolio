@@ -59,7 +59,15 @@ function midway() {
 }
 
 //review
-function review(){
+function review(yes, no){
     let rating = prompt("Did you like this page? Yes or no?")
-    alert("ah, I see")  
+    if (rating === "yes"){
+    alert("yay! I'm so so glad you liked it! :)") ; 
+}
+    else if (rating === "no"){
+        alert("oh no! I'll be sure to do better next time!");
+}
+    else{
+        alert("ah, I see");
+}
 }
