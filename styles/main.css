@@ -91,7 +91,7 @@ ul {
   }
 
   /* all css for buttons (there's a lot) */
-  #greeting {
+  #hello {
     background-color: #dbbfcc;
     color: white;
     border-color: lavender;
@@ -99,11 +99,11 @@ ul {
     padding: 10px 10px;
     transition-duration: 0.4s;
   }
-  #greeting:hover{
+  #hello:hover{
     background-color: white;
     color: #dbbfcc;
   }
-  #greeting:active {
+  #hello:active {
     background-color: white;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
@@ -272,4 +272,52 @@ ul {
   }
 
 /* all css for :hover, :active, and border-radius from w3schools; link: https://www.w3schools.com/css/css3_buttons.asp */
- 
+/*test buttons*/
+#oddOrEven{
+  background-color: #dbbfcc;
+  color: white;
+  border-color:lavender;
+  border-radius: 12px;
+}
+#oddOrEven:hover{
+  background-color: white;
+  color: #dbbfcc;
+}
+#oddOrEven:active {
+  background-color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#whileSumThrees{
+  background-color: #dbbfcc;
+  color: white;
+  border-color:lavender;
+  border-radius: 12px;
+}
+#whileSumThrees:hover{
+  background-color: white;
+  color: #dbbfcc;
+}
+#whileSumThrees:active {
+  background-color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#forSumThrees{
+  background-color: #dbbfcc;
+  color: white;
+  border-color:lavender;
+  border-radius: 12px;
+}
+#forSumThrees:hover{
+  background-color: white;
+  color: #dbbfcc;
+}
+#forSumThrees:active {
+  background-color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
