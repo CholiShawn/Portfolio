@@ -71,3 +71,41 @@ function review(yes, no){
         alert("ah, I see");
 }
 }
+// Prompts the user for a integer and returns a message on if its odd or even
+//this is a test
+function oddOrEven() {
+    let userNum = prompt("Enter an integer")
+    if (userNum %2 == 1) {
+            alert("That number is odd")
+    }
+    else {
+        alert("That number is even")
+    }
+}
+
+//another test
+function whileSumThrees() {
+    let sum = 0;
+    let i = 0;
+    while(i < 1000) {
+        sum += i; //sum multiples of 3 under 1000
+        i = i + 3;
+       
+    }
+    console.log(sum)//log to console
+}
+
+//Create a JavaScript function, largerNumber() that prompts the 
+//user for two integers and uses conditional statement(s) to alert the user 
+//to the larger of the two numbers.
+function largerNumber() {
+    let number = prompt ("Enter 2 integers")
+    let number = 0
+    let num2 = 0
+    if (number < num2) {
+        alert (num2 + " is greater")
+    }
+    else {
+        alert (number + " is greater")
+    }
+}
