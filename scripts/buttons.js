@@ -98,22 +98,32 @@ function whileSumThrees() {
 function secretLanguage() {
     let normalWords = prompt("write your message here:");
     let codeWords = "";
-    let firstLetter = "";
+    let firstletter = "";
+    
     for(let i = 0; i < normalWords.length; i++){
-        firstletter = normalWords[0]
-        //my 'secret language is just replacing the vowels with symbols, 
-        //and adding 'wy' at the end
-        codeWords = normalWords.replace(/a/g, '&')
-        .replace(/A/g, '&')
-        .replace(/e/g, '^')
-        .replace(/E/g, '^')
+       //my 'secret language' is just replacing the vowels with symbols
+       //and some consonants with numbers, cutting off the first and moving it to the end, 
+       //splitting the words when the letter 'h' appears
+       //and adding 'wy' at the very end (after the first letter that was cut of the beginning).
+       //as well as at the very beginning
+        let firstletter = normalWords[0];
+        codeWords =  "wy" + normalWords.replace(/a/g, '&')
+        .replace(/A/g, '&') //vowel symbols
+        .replace(/e/g, '-')
+        .replace(/E/g, '-')
         .replace(/i/g, '!')
         .replace(/I/g, '!')
         .replace(/o/g, '~')
         .replace(/O/g, '~')
         .replace(/u/g, '@')
-        .replace(/U/g, '@') + firstLetter + "wy";
-    
+        .replace(/U/g, '@')
+        .replace(/c/g, '9') //consonant numbers start here
+        .replace(/C/g, '9')
+        .replace(/r/g, '3')
+        .replace(/R/g, '3')
+        .replace(/t/g, '5')
+        .replace(/T/g, '5')  
+        .slice(1).split("h") + firstletter + "wy"; 
     }
   document.getElementById("encryption").innerHTML = codeWords;
 }
@@ -121,12 +131,27 @@ function secretLanguage() {
 function notSecretLanguage() {
     let codeWords = prompt("write your encrypted message here:");
     let normalWords = "";
-    for(let i = 0; i < normalWords.length; i++){
-        normalWords = codeWords.replace(/&/g, 'a')
-        .replace(/^/g, 'e')
+    let firstLetter = ""
+    for(let i = 0; i < codeWords.length; i++){
+        
+        normalWords = codeWords.slice(1,-1).slice(1,-1) //cutting off the 'wy' at the the start and end
+        .replace(/&/g, 'a') //replacing vowels starts here
+        .replace(/-/g, 'e')
+        .replace(/-/g, 'E')
         .replace(/!/g, 'i')
-        .replace(/~/g, '~')
-        .replace(/@/g, 'u') - "wy";
+        .replace(/!/g, 'I')
+        .replace(/~/g, 'o')
+        .replace(/~/g, 'O')
+        .replace(/@/g, 'u')
+        .replace(/@/g, 'U')
+        .replace(/9/g, 'c') //replacing consonants start here
+        .replace(/9/g, 'C')
+        .replace(/3/g, 'r')
+        .replace(/3/g, 'R')
+        .replace(/5/g, 't')
+        .replace(/5/g, 'T')
+        .replace(/,/g, 'h');
 }
   document.getElementById("decrypt").innerHTML = normalWords;
 }
+//perhaps I'll use trim if I'm unable to figure this out oof
