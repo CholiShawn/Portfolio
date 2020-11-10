@@ -320,4 +320,34 @@ ul {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-
+/*encryption button*/
+#secretLanguage {
+  background-color: #dbbfcc;
+  color: white;
+  border-color:lavender;
+  border-radius: 12px;
+}
+#secretLanguage:hover{
+  background-color: white;
+  color: #dbbfcc;
+}
+#secretLanguage:active {
+  background-color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#notSecretLanguage {
+  background-color: #dbbfcc;
+  color: white;
+  border-color:lavender;
+  border-radius: 12px;
+}
+#notSecretLanguage:hover{
+  background-color: white;
+  color: #dbbfcc;
+}
+#notSecretLanguage:active {
+  background-color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

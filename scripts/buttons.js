@@ -89,40 +89,44 @@ function whileSumThrees() {
     let i = 0;
     while(i < 1000) {
         sum += i; //sum multiples of 3 under 1000
-        i = i + 3;
-       
+        i = i + 3; 
     }
     console.log(sum)//log to console
 }
 
-//Create a JavaScript function, largerNumber() that prompts the 
-//user for two integers and uses conditional statement(s) to alert the user 
-//to the larger of the two numbers.
-
-
-//Create a JavaScript function, signOfProduct(), that prompts the user 
-//for 3 integers and uses conditional statement(s) to output the sign of 
-//product of three numbers to the user in an alert. 
-
-//Create a JavaScript function, forSumThrees(), that uses a for loop to sum the 
-//multiples of 3 under 1000. Log the result to the console
-function forSumThrees() {
-    let sum = 0
-    for (let i = 0; i < 1000; i = i + 3){
+//encryption assignment
+function secretLanguage() {
+    let normalWords = prompt("write your message here:");
+    let codeWords = "";
+    let firstLetter = "";
+    for(let i = 0; i < normalWords.length; i++){
+        firstletter = normalWords[0]
+        //my 'secret language is just replacing the vowels with symbols, 
+        //and adding 'wy' at the end
+        codeWords = normalWords.replace(/a/g, '&')
+        .replace(/A/g, '&')
+        .replace(/e/g, '^')
+        .replace(/E/g, '^')
+        .replace(/i/g, '!')
+        .replace(/I/g, '!')
+        .replace(/o/g, '~')
+        .replace(/O/g, '~')
+        .replace(/u/g, '@')
+        .replace(/U/g, '@') + firstLetter + "wy";
+    
     }
-    console.log(sum);
+  document.getElementById("encryption").innerHTML = codeWords;
 }
 
-//Create a JavaScript function, centuryFromYear(), that,
-// given a year, returns the century it is in. The first century 
-//spans from the year 1 up to and including the year 100, The second - 
-//from the year 101 up to and including the year 200, etc.
-function centuryFromYear(){
-    let year = prompt ("Enter a year")
-    if (year < 101){
-        alert("that is the first century")
-    }
-    else if (year < 201){
-        alert("that is the 2nd century")
-    }
+function notSecretLanguage() {
+    let codeWords = prompt("write your encrypted message here:");
+    let normalWords = "";
+    for(let i = 0; i < normalWords.length; i++){
+        normalWords = codeWords.replace(/&/g, 'a')
+        .replace(/^/g, 'e')
+        .replace(/!/g, 'i')
+        .replace(/~/g, '~')
+        .replace(/@/g, 'u') - "wy";
+}
+  document.getElementById("decrypt").innerHTML = normalWords;
 }
