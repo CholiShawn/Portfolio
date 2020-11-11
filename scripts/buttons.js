@@ -153,7 +153,7 @@ function notSecretLanguage() {
         .replace(/3/g, 'R')
         .replace(/5/g, 't')
         .replace(/5/g, 'T')
-        .replace(/,/g, 'h');
+        .replace(/,/g, 'h'); //turns the split words back into the letter h
 }
   document.getElementById("decrypt").innerHTML = normalWords;
 }
