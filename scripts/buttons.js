@@ -95,20 +95,20 @@ function whileSumThrees() {
 }
 
 //encryption assignment
+       //my 'secret language' is just replacing the vowels with symbols
+       //and some consonants with numbers, cutting off the first letter  
+       //and moving it to the end, splitting the words when the letter 'h' appears
+       //and adding 'wy' at the very end (after the first letter that was cut of the beginning).
+       //as well as at the very beginning
 function secretLanguage() {
     let normalWords = prompt("write your message here:");
     let codeWords = "";
     let firstletter = "";
     
     for(let i = 0; i < normalWords.length; i++){
-       //my 'secret language' is just replacing the vowels with symbols
-       //and some consonants with numbers, cutting off the first and moving it to the end, 
-       //splitting the words when the letter 'h' appears
-       //and adding 'wy' at the very end (after the first letter that was cut of the beginning).
-       //as well as at the very beginning
         let firstletter = normalWords[0];
         codeWords =  "wy" + normalWords.replace(/a/g, '&')
-        .replace(/A/g, '&') //vowel symbols
+        .replace(/A/g, '&') //vowel symbols (for lower and uppercase letters)
         .replace(/e/g, '-')
         .replace(/E/g, '-')
         .replace(/i/g, '!')
@@ -117,13 +117,15 @@ function secretLanguage() {
         .replace(/O/g, '~')
         .replace(/u/g, '@')
         .replace(/U/g, '@')
-        .replace(/c/g, '9') //consonant numbers start here
+        .replace(/c/g, '9') //consonant numbers start here (lower and uppercase)
         .replace(/C/g, '9')
         .replace(/r/g, '3')
         .replace(/R/g, '3')
         .replace(/t/g, '5')
         .replace(/T/g, '5')  
         .slice(1).split("h") + firstletter + "wy"; 
+        //took out the first letter, split words when the letter 'h' appears, 
+        //and added 'wy' to the end
     }
   document.getElementById("encryption").innerHTML = codeWords;
 }
@@ -131,10 +133,11 @@ function secretLanguage() {
 function notSecretLanguage() {
     let codeWords = prompt("write your encrypted message here:");
     let normalWords = "";
-    let firstLetter = ""
+    
     for(let i = 0; i < codeWords.length; i++){
-        
-        normalWords = codeWords.slice(1,-1).slice(1,-1) //cutting off the 'wy' at the the start and end
+        normalWords = codeWords[codeWords.length - 3] + codeWords.slice(1,-1)
+        .slice(1,-1)        //cutting off the 'wy' at the the start and end
+        .slice(0, -1)
         .replace(/&/g, 'a') //replacing vowels starts here
         .replace(/-/g, 'e')
         .replace(/-/g, 'E')
@@ -154,4 +157,4 @@ function notSecretLanguage() {
 }
   document.getElementById("decrypt").innerHTML = normalWords;
 }
-//perhaps I'll use trim if I'm unable to figure this out oof
+
